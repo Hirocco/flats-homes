@@ -1,0 +1,197 @@
+.login-all{
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    height: 100vh; /* Możesz dostosować wysokość */
+    background-image: url('../../../assets/background_image_logrej.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login-photo{
+    background-image: url('../../../assets/dom_login.png');
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.login-container{
+    background-color: white;
+    width: 800px;
+    height: 600px; /* Wykorzystanie wysokości kontenera */
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    border-radius: 10px;
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.login-wybor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    background-color: #b9b9b9;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    
+}
+
+
+
+.login-wybor-div{
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-bottom: 5; 
+    
+    
+}
+.granat{
+    background-color: #3e4f67;
+    color: white;
+    
+}
+.szary:hover{
+    background-color: #b9b9b9;
+    font-weight: 500;
+}
+.granat:hover{
+    font-weight: 500;    
+}
+
+
+.input{
+    height: 70px; /* Zmieniamy wysokość na auto */
+    width: 400px;
+    display: flex;
+    flex-direction: column; /* Ustawiamy kolumnowy układ flexbox */
+    align-items: center;
+    
+    
+}
+.input input{
+    margin-left: 5%;
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    border: 2px solid 3e4f67;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.login-form{
+    width: 100%;
+}
+.submits{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.but-czysc{
+    color: #3e4f67;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: white;
+    border: solid #3e4f67;
+    width: 120px;
+    height: 40px;
+}
+.but-czysc:hover{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #3e4f67;
+    border: solid #3e4f67;
+    width: 120px;
+    height: 40px;
+}
+.but-logrej{
+    color: white;
+    font-weight: 400;
+    background-color: #3e4f67;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 150px;
+    height: 40px;
+}
+.but-logrej:hover{
+   font-weight: 500;
+}
+.but-logrej:active{
+    color: white;
+    font-weight: 400;
+    background-color: #535f70;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 150px;
+    height: 40px;
+}
+button{
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.forgot-password{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.forgot-password span{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.forgot-password1 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px; /* Dodajemy trochę przestrzeni nad tekstem */
+    color: #504e4e; 
+    
+  }
+.input {
+    position: relative;
+  }
+  
+.input label {
+position: absolute;
+top: -45px; /* Odległość etykiety nad polem input */
+left: 20px; /* Odległość etykiety od lewej krawędzi pola input */
+font-size: 12px; /* Mniejsza czcionka dla etykiety */
+color: #000000; /* Kolor tekstu etykiety */
+padding-bottom: 0px;
+margin-left: 8%;
+margin-top: 6%;
+font-size: 14px;
+font-weight: 600;
+}
+/* zaloguj*/
+.login-container-small {
+    width: 750px;
+    height: 400px; /* Nowy rozmiar kontenera */
+    transition: width 0.5s, height 0.5s; /* Płynne przejście między rozmiarami */
+}
+
+.login-container-large {
+    width: 800px;
+    height: 600px;
+    transition: width 0.5s, height 0.5s; /* Płynne przejście między rozmiarami */
+}
